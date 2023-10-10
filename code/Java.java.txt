@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Введіть назву продукту: ");
+        String назва = scanner.nextLine();
+        
+        System.out.print("Введіть ціну продукту: ");
+        double ціна = scanner.nextDouble();
+        
+        System.out.println("Ви внесли продукт: Назва - " + назва + ", Ціна - " + ціна);
+    }
+}

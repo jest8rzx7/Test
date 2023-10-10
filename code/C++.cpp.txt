@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string назва;
+    double ціна;
+    
+    std::cout << "Введіть назву продукту: ";
+    std::getline(std::cin, назва);
+    
+    std::cout << "Введіть ціну продукту: ";
+    std::cin >> ціна;
+    
+    std::cout << "Ви внесли продукт: Назва - " << назва << ", Ціна - " << ціна << std::endl;
+    
+    return 0;
+}

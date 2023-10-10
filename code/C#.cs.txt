@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть назву продукту: ");
+        string назва = Console.ReadLine();
+        
+        Console.Write("Введіть ціну продукту: ");
+        decimal ціна = decimal.Parse(Console.ReadLine());
+        
+        Console.WriteLine($"Ви внесли продукт: Назва - {назва}, Ціна - {ціна:C}");
+    }
+}
